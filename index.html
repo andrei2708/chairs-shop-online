@@ -5,6 +5,9 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/index.css">
     <title>Магазин кресел</title>
 </head>
@@ -18,5 +21,27 @@
            <a href="" class="header-navigation__link">Контакты</a>
        </div>
    </section>
+    <header class="header">
+        <div class="wrapper header__wrapper">
+            <a href="#" class="header__logo-block">
+                <img src="./src/assets/header/logo.png" alt="logo" class="header__logo-img">
+                <span class="header__logo-title">
+                    BEAUTY
+                </span>
+            </a>
+            <div class="header__search-block">
+                <img src="src/assets/header/search-icon.svg" alt="search-icon" class="header__search-icon">
+                <input type="text" class="header__search-input">
+            </div>
+            <div class="header__callback-block callback-block">
+                <a href="tel:88121234567" class="header__tel-number callback-block__tel-number">
+                    8 (812) 123-45-67
+                </a>
+                <button class="header__callback-button callback-block__callback-button default-button">
+                    Обратный звонок
+                </button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
