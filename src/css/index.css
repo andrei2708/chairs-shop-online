@@ -143,3 +143,32 @@ a {
     padding: 80px 0; }
   .recently-watched-products__title {
     margin-bottom: 40px; }
+
+.super-product {
+  color: #FFFFFF;
+  background-image: url("../assets/super-product/background.png"); }
+  .super-product__wrapper {
+    display: flex;
+    padding: 215px 0; }
+  .super-product__main-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 35%; }
+  .super-product__title {
+    font-weight: bold;
+    font-size: 4.8rem;
+    line-height: 5.6rem; }
+  .super-product__subtitle {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2rem; }
+  .super-product__button {
+    background: transparent;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    max-width: 170px; }
