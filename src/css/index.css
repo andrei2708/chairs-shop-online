@@ -127,6 +127,17 @@ a {
     text-align: center;
     color: #FFFFFF; }
 
+.sponsor-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 60px;
+  background: #FFFFFF;
+  border: 0.5px solid #E5E5E5; }
+  .sponsor-item__img {
+    width: 150px;
+    height: 50px; }
+
 .header-navigation {
   background: #E5E5E5; }
   .header-navigation__link {
@@ -228,3 +239,13 @@ a {
     padding-bottom: 100px; }
   .info-blocks__item:not(:last-child) {
     margin-right: 30px; }
+
+.sponsors {
+  background: #FFFFFF; }
+  .sponsors__wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+  .sponsors__item {
+    width: 25%;
+    max-width: 25%;
+    box-sizing: border-box; }
