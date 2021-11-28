@@ -1,5 +1,6 @@
 $info-block-input-text-color: #C4C4C4;
 $info-block-input-height: 35px;
+$info-block-width: 48%;
 
 
 .info-block {
@@ -9,6 +10,8 @@ $info-block-input-height: 35px;
   color: $main-text-color;
   background: $primary1;
   padding: 35px 40px;
+
+  width: $info-block-width;
 
   &__main-block {
     display: flex;
